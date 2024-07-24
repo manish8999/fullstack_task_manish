@@ -55,7 +55,9 @@ const TaskList: React.FC = () => {
 
             {error && (
                 <div className="spinner-container">
-                    <p>{error}</p>
+                    <p className="bg-white h-24 w-72 rounded-lg mx-2.5 text-center pt-8">
+                        {error}
+                    </p>
                 </div>
             )}
 

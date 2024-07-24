@@ -5,7 +5,7 @@ import {
     ADD_TASK_REQUEST,
     ADD_TASK_SUCCESS,
     ADD_TASK_FAILURE,
-  } from "../actionType/user.actiontype";
+  } from "../actionType/task.actiontype";
   
   interface TaskState {
     tasks: any[];

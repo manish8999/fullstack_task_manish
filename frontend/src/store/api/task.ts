@@ -7,7 +7,7 @@ import {
     addTaskRequest,
     addTaskSuccess,
     addTaskFailure
-} from "../action/user.action";
+} from "../action/task.action";
 import apis from './task.service';
 
 export const fetchTasks = () => {
